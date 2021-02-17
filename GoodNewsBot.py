@@ -9,8 +9,6 @@ ABC_ID = "28785486"
 CBS_ID = "15012486"
 NBC_ID = "14173315"
 
-
-
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
 api = tweepy.API(auth)
@@ -47,6 +45,6 @@ class MyStreamListener(tweepy.StreamListener):
         return True
 
 myStreamListener = MyStreamListener()
-myStream = tweepy.Stream(auth = api.auth, listener=myStreamListener)
+myStream = tweepy.Stream(auth=api.auth, listener=myStreamListener)
 
 myStream.filter(follow=[CNN_ID,NBC_ID,MSNBC_ID,ABC_ID,CBS_ID])
