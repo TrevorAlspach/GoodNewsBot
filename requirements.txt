@@ -137,13 +137,6 @@ pydocstyle==4.0.1
 pyflakes==2.1.1
 pygame==2.0.1
 Pygments==2.5.2
-pylint==2.4.4
-pyodbc===4.0.0-unsupported
-pyOpenSSL==19.1.0
-pyparsing==2.4.6
-pyreadline==2.1
-pyrsistent==0.15.7
-PySocks==1.7.1
 pytest==5.3.5
 pytest-arraydiff==0.3
 pytest-astropy==0.8.0
@@ -156,9 +149,6 @@ python-jsonrpc-server==0.3.4
 python-language-server==0.31.7
 pytz==2019.3
 PyWavelets==1.1.1
-pywin32==227
-pywin32-ctypes==0.2.0
-pywinpty==0.5.7
 PyYAML==5.3
 pyzmq==18.1.1
 QDarkStyle==2.8
