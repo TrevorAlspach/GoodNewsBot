@@ -1,6 +1,10 @@
 import tweepy
 import nltk.sentiment
-from config import CONSUMER_KEY, CONSUMER_SECRET, ACCESS_KEY, ACCESS_SECRET
+
+CONSUMER_KEY = ""
+CONSUMER_SECRET = ""
+ACCESS_KEY = ""
+ACCESS_SECRET = ""
 
 TESTACCOUNTID = "2899773086"
 CNN_ID = "759251"
