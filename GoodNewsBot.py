@@ -1,10 +1,10 @@
 import tweepy
 import nltk.sentiment
-import os
-CONSUMER_KEY = os.getenv('CONSUMER_KEY')
-CONSUMER_SECRET = os.getenv('CONSUMER_SECRET')
-ACCESS_KEY = os.getenv('ACCESS_KEY')
-ACCESS_SECRET = os.getenv('ACCESS_SECRET')
+from os import environ
+CONSUMER_KEY = environ['CONSUMER_KEY']
+CONSUMER_SECRET = environ['CONSUMER_SECRET']
+ACCESS_KEY = environ['ACCESS_KEY']
+ACCESS_SECRET = environ['ACCESS_SECRET']
 
 TESTACCOUNTID = "2899773086"
 CNN_ID = "759251"
